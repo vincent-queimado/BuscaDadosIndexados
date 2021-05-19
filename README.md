@@ -100,7 +100,7 @@ ou caso nehuma ocorrência é encontrada:
 Nenhuma ocorrência encontrada!
 ```
 
-## Resultado de busca
+## Resultado de buscas
 
 Exemplo de execução de uma busca por indexação em tempo 0.016ms considerando uma palavra-chave localizada em 74 aruivos de textos:
 
