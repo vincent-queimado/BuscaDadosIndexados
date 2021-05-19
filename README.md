@@ -8,8 +8,8 @@ O programa é focado no pré-processamento dos dados de arquivos e algoritmo de 
 O programa não utiliza dependências, a menos para os testes unitários do projeto. 
 
 Segue abaixo algumas premissas implementadas no projeto: 
-1. O programa é executado a partir de linha de comando do terminal (Linux/MacOS).
-2. O programa não utiliza dependências/pacotes de terceiros (apenas código naitvo).
+1. O programa é executado a partir de linha de comando do terminal preparados para ambiente Linux/MacOS.
+2. O programa não utiliza dependências/pacotes de terceiros (apenas código nativo).
 2. O resultado de ocorrências encontradas é listado em ordem crescente e alfabética. 
 3. O programa permite a busca de múltiplas palavras-chaves (lógica combinatória com AND), ou seja palavras que se encontram em mesmos arquivos não necessariamente juntas.
 
