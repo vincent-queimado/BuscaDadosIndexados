@@ -49,7 +49,7 @@ Após realizar a instalação, copiar e colar todos os arquivos de textos (.txt)
  /database/movies/data/
 ```
 
-Obs.: Existe uma pasta para arquivos de dados para testes em ambiente de desenvolvimento (/database/movies/data_sample). 
+Obs.: Existe uma pasta para arquivos de dados de testes em ambiente de desenvolvimento (/database/movies/data_sample). 
 
 ## Execução
 
