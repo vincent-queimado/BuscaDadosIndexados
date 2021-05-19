@@ -41,7 +41,7 @@ Clone do repositório:
   cd BuscaDadosIndexados
 ```
 
-Instalação de dependências:
+Instalação de dependências (apenas dependências de testes unitários - JEST):
 ```bash
   npm install
 ```
