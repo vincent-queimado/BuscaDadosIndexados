@@ -1,4 +1,4 @@
-<img src="https://github.com/vincent-queimado/BuscaDadosIndexados/blob/main/public/assets/images/logo.png?raw=true" alt="Logo" height="100px"/>
+<img src="https://github.com/vincent-queimado/BuscaDadosIndexados/blob/master/public/assets/images/logo.png?raw=true" alt="Logo" height="100px"/>
 
 # Programa de busca por indexação
 
