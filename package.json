@@ -11,11 +11,15 @@
     "npm": ">=6.0"
   },
   "scripts": {
-    "search": "export NODE_ENV=staging && node ./src/app/client/search.js",
-    "server": "export NODE_ENV=staging && node ./src/app/server/index.js",
-    "dev-search": "set NODE_ENV=staging&& nodemon ./src/app/client/index.js",
-    "dev-server": "set NODE_ENV=staging&& nodemon ./src/app/server/index.js",
-    "unit": "set NODE_ENV=development&& jest ./test",
+    "search": "export NODE_ENV=staging&& node ./src/app/client/index.js",
+    "server": "export NODE_ENV=staging&& node ./src/app/server/index.js",
+    "win-search": "set NODE_ENV=staging&& node ./src/app/client/index.js",
+    "win-server": "set NODE_ENV=staging&& node ./src/app/server/index.js",
+    "dev-search": "export NODE_ENV=development&& node ./src/app/client/index.js",
+    "dev-server": "export NODE_ENV=development&& node ./src/app/server/index.js",
+    "win-dev-search": "set NODE_ENV=development&& node ./src/app/client/index.js",
+    "win-dev-server": "set NODE_ENV=development&& node ./src/app/server/index.js",
+    "unit": "set NODE_ENV=development&& jest ./test --detectOpenHandles",
     "test": "npm run unit"
   },
   "devDependencies": {

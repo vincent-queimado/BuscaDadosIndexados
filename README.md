@@ -29,7 +29,7 @@ src\                    # Pasta do programa source (sem compilação)
 test\                   # Pasta de arquivos de testes unitérios
 ```
 
-## Sobre a instalação 
+## instalação 
 
 Para realizar a instalação do programa, segue o passo a passo abaixo.
 
@@ -51,7 +51,7 @@ Após realizar a instalação, copiar e colar todos os arquivos de textos (.txt)
 
 Obs.: Existe uma pasta para arquivos de dados para testes em ambiente de desenvolvimento (/database/movies/data_sample). 
 
-## Sobre a execução
+## Execução
 
 O programa deve ser executado em duas partes a partir de um script de pré-processamento de dados e e outro script de execução de busca via comando no terminal:
 
@@ -59,27 +59,60 @@ O programa deve ser executado em duas partes a partir de um script de pré-proce
 
 2. O segundo script é responsável pela execução de um comando de busca via terminal.
 
-### Executando o preprocessamento de dados
+### Executando o pré-processamento de dados
 
-Para executar em ambiente de staging/produção:
+Para executar o script de pré-processamento de dados em ambiente de staging/produção:
 ```bash
   npm run server
 ```
-Para executar em ambiente de desenvolvimento:
+Para executar o script de pré-processamento de dados em ambiente de desenvolvimento:
 ```bash
   npm run dev-server
 ```
-Ao executar o server, o terminal estará aguardando as requisições de pesquisa por comandos.
+Ao executar o o pré-processamento de dados e iniciar o server, o terminal estará aguardando as requisições de pesquisa por comandos.
 
+### Executando a busca de palavres-chaves
 
-Para executar em ambiente de staging/produção:
+Para executar a busca de palavres-chaves em ambiente de staging/produção:
 ```bash
   npm run search palavra1 palavra2
 ```
-Para executar em ambiente de desenvolvimento:
+Para executar a busca de palavres-chaves em ambiente de desenvolvimento:
 ```bash
   npm run dev-search palavra1 palavra2
 ```
-Ao executar a pesquisa no terminal, será retornado os arquivos de textos onde encontram-se as plavras.
+Ao executar a busca de palavres-chaves no terminal, será retornado os arquivos de textos onde encontram-se as plavras.
+
+Exemplo:
+```bash
+Foram encontradas 2 ocorrências pelo termo "vincent"
+01-jan.txt
+3-dots.txt
+```
+
+```bash
+Foi encontrada 1 ocorrência pelos termos "vincent","dots"
+3-dots.txt
+```
+
+ou caso nehuma ocorrência é encontrada:
+```bash
+Nenhuma ocorrência encontrada!
+```
+
+## Resultado de busca
+
+Exemplo de execução de uma busca por indexação em tempo 0.016ms considerando uma palavra-chave localizada em 74 aruivos de textos:
+
+<img src="https://github.com/vincent-queimado/BuscaDadosIndexados/blob/develop/public/assets/images/searchresult.png?raw=true" alt="Resultado de busca" width="600px"/>
 
 
+## Execução de testes unitários
+
+Para relizar alguns testes unitários de possíveis cenários de busca:
+```bash
+npm run test
+```
+Exemplo de execução de testes:
+
+<img src="https://github.com/vincent-queimado/BuscaDadosIndexados/blob/develop/public/assets/images/jesttest.png?raw=true" alt="Teste Unitários com Jest" width="600px"/>
