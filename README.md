@@ -21,7 +21,7 @@ database\               # Pasta de arquivos de dados (contém os arquivos de dad
  |--data_sample         # Pasta de arquivos de exemplo para uso em desenvolvimento
 public\                 # Pasta de imagens de documentação do git (pasta criada apenas para ilustrações relacionadas ao Readme do projeto)
 src\                    # Pasta do programa source (sem compilação - futuramente poderá ser compilado e criado uma pasta dist)   
- |--app\                # Subpasta do programa/serviço
+ |--app\                # Subpasta do programa/serviço separados em server/client
      |--client          # Pasta de arquivos relacionados a execução da busca de usuário 
      |--config\         # Pasta de arquivos de configuração do programa
      |--server\         # Pasta de arquivos relacionados ao preprocessamento e motor de busca por indexação 
