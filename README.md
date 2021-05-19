@@ -104,7 +104,7 @@ Nenhuma ocorrência encontrada!
 
 Exemplo de execução de uma busca por indexação em tempo 0.016ms considerando uma palavra-chave localizada em 74 aruivos de textos:
 
-<img src="https://github.com/vincent-queimado/BuscaDadosIndexados/blob/develop/public/assets/images/searchresult.png?raw=true" alt="Resultado de busca" height="600px"/>
+<img src="https://github.com/vincent-queimado/BuscaDadosIndexados/blob/develop/public/assets/images/searchresult.png?raw=true" alt="Resultado de busca" width="600px"/>
 
 
 ## Execução de testes unitários
@@ -115,4 +115,4 @@ npm run test
 ```
 Exemplo de execução de testes:
 
-<img src="https://github.com/vincent-queimado/BuscaDadosIndexados/blob/develop/public/assets/images/jesttest.png?raw=true" alt="Teste Unitários com Jest" height="600px"/>
+<img src="https://github.com/vincent-queimado/BuscaDadosIndexados/blob/develop/public/assets/images/jesttest.png?raw=true" alt="Teste Unitários com Jest" width="600px"/>
