@@ -3,12 +3,13 @@
 # Programa de busca por indexação
 
 ## Sobre o programa
-O objetivo deste programa é realizar buscas por sentença (conjunto de palavras chaves) em arquivos de dados (txt no exemplo). Uma das premissas do programa é a velocidade de tratamento de busca através de algoritmo de indexecação (0.001ms), retornando a quantidade de ocorrências encontradas assim como a lista de arquivos que possuem as palavras chaves pesquisadas.
+O objetivo deste programa é realizar buscas por sentença (conjunto de palavras chaves) em arquivos de dados (exemplo com arquivos .txt). Uma das premissas do programa é a velocidade de tratamento de busca através de algoritmo de indexecação (0.001ms), retornando a quantidade de ocorrências encontradas assim como a lista de arquivos que possuem as palavras chaves pesquisadas.
 
 Seguem as premissas implementadas no projeto: 
-1. O programa deve ser executado a partir da linha de comando do terminal (Linux/MacOS).
+1. O programa é executado a partir de linha de comando do terminal (Linux/MacOS).
+2. O programa não utiliza dependências.
 2. O resultado de ocorrências encontradas é listado em ordem crescente e alfabética. 
-3. O programa deve permitir que a sentença que deverá ser encontrada seja passada como parâmetro de execução.
+3. O programa oferece um busca de multiplas palavras chaves (chaveado com AND) que se encontram em mesmos aquivos mesmo de forma separadas dentro do contéudo do arquivo.
 
 ## Estrutura
 
@@ -43,6 +44,11 @@ Clone do repositório:
 Instalação de dependências:
 ```bash
   npm install
+```
+
+Após realizar a instalação, copiar e colar todos os arquivos de textos (.txt) na pasta do projeto:
+```bash
+ /database/movies/data/
 ```
 
 ## Sobre a execução
