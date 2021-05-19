@@ -3,7 +3,7 @@
 # Programa de busca por indexação
 
 ## Sobre o programa
-O objetivo deste programa é realizar buscas por sentença (conjunto de palavras chaves) em arquivos de dados (exemplo com arquivos .txt). Uma das premissas do programa é a velocidade de tratamento de busca através de algoritmo de indexecação (0.001ms), retornando a quantidade de ocorrências encontradas assim como a lista de arquivos que possuem as palavras chaves pesquisadas.
+O objetivo deste programa é realizar buscas por sentença (conjunto de palavras chaves) em arquivos de dados (exemplo com arquivos .txt). Uma das premissas do programa é a velocidade de tratamento de busca através de algoritmo de indexação (0.001ms), retornando a quantidade de ocorrências encontradas assim como a lista de arquivos que possuem as palavras chaves pesquisadas.
 
 Seguem as premissas implementadas no projeto: 
 1. O programa é executado a partir de linha de comando do terminal (Linux/MacOS).
@@ -29,44 +29,55 @@ test\                   # Pasta de arquivos de testes unitérios
 
 ## Sobre a instalação 
 
-O programa deve ser executado em duas partes a partir de scripts. 
-O primeiro script é responsável pelo preprocessamento dos dados dos arquivos, criando uma indexação e um servidor pronta para receber as buscas.
-O segundo script é responsável pela execução de um comando de busca pelo terminal.
-
 Para realizar a instalação do programa, segue o passo a passo abaixo.
 
-Clone do repositório:
+Clone do repositório projeto:
 ```bash
   git clone https://github.com/vincent-queimado/BuscaDadosIndexados.git
   cd BuscaDadosIndexados
 ```
 
-Instalação de dependências (apenas dependências de testes unitários - JEST):
+Instalação de dependência de desenvolvimento apenas para realização de testes unitários. O comando irá instalar o Jest (https://jestjs.io/pt-BR/):
 ```bash
   npm install
 ```
 
-Após realizar a instalação, copiar e colar todos os arquivos de textos (.txt) na pasta do projeto:
+Após realizar a instalação, copiar e colar todos os arquivos de textos (.txt) desejados na pasta adequada do projeto:
 ```bash
  /database/movies/data/
 ```
 
+Obs.: Existe uma pasta para arquivos de dados para testes em ambiente de desnvolvimento. 
+
 ## Sobre a execução
 
-Executando localmente em ambiente de desenvolvimento:
-```bash
-  npm run dev-server
-```
+O programa deve ser executado em duas partes a partir de scripts de preprocessamento de dados e execução de busca por comando:
 
-```bash
-  npm run dev-search palavra1 palavra2
-```
+1. O primeiro script é responsável pelo preprocessamento dos dados dos arquivos, criando uma indexação e um servidor pronta para receber as buscas.
 
-Executando em ambiente staging ou produção:
+2. O segundo script é responsável pela execução de um comando de busca via terminal.
+
+### Executando o preprocessamento de dados
+
+Para executar em ambiente de staging/produção:
 ```bash
   npm run server
 ```
+Para executar em ambiente de desenvolvimento:
+```bash
+  npm run dev-server
+```
+Ao executar o server, o terminal estará aguardando as requisições de pesquisa por comandos.
+
+
+Para executar em ambiente de staging/produção:
 ```bash
   npm run search palavra1 palavra2
 ```
+Para executar em ambiente de desenvolvimento:
+```bash
+  npm run dev-search palavra1 palavra2
+```
+Ao executar a pesquisa no terminal, será retornado os arquivos de textos onde encontram-se as plavras.
+
 
