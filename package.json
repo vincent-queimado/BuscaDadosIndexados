@@ -1,0 +1,32 @@
+{
+  "name": "searchengineindexing",
+  "version": "1.0.0",
+  "description": "Search Engine Indexing",
+  "author": "Vincent Queimado",
+  "license": "ISC",
+  "main": "./src/app/server/index.js",
+  "private": true,
+  "engines": {
+    "node": ">=14.0",
+    "npm": ">=6.0"
+  },
+  "scripts": {
+    "search": "export NODE_ENV=staging && node ./src/app/client/search.js",
+    "server": "export NODE_ENV=staging && node ./src/app/server/index.js",
+    "dev-search": "set NODE_ENV=staging&& nodemon ./src/app/client/index.js",
+    "dev-server": "set NODE_ENV=staging&& nodemon ./src/app/server/index.js",
+    "unit": "set NODE_ENV=development&& jest ./test",
+    "test": "npm run unit"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "verbose": false,
+    "silent": true,
+    "modulePaths": [
+      "<rootDir>"
+    ]
+  }
+}
