@@ -55,7 +55,7 @@ Obs.: Existe uma pasta para arquivos de dados para testes em ambiente de desenvo
 
 O programa deve ser executado em duas partes a partir de um script de pré-processamento de dados e e outro script de execução de busca via comando no terminal:
 
-1. O primeiro script é responsável pelo preprocessamento dos dados dos arquivos, criando uma indexação e um servidor pronta para receber as buscas.
+1. O primeiro script é responsável pelo pré-processamento dos dados dos arquivos, criando uma indexação e um servidor pronta para receber as buscas.
 
 2. O segundo script é responsável pela execução de um comando de busca via terminal.
 
@@ -102,17 +102,17 @@ Nenhuma ocorrência encontrada!
 
 ## Resultado de buscas
 
-Exemplo de execução de uma busca por indexação em tempo 0.016ms considerando uma palavra-chave localizada em 74 aruivos de textos:
+Exemplo de execução de uma busca por indexação em tempo 0.016ms considerando uma palavra-chave localizada em 74 arquivos de textos:
 
 <img src="https://github.com/vincent-queimado/BuscaDadosIndexados/blob/develop/public/assets/images/searchresult.png?raw=true" alt="Resultado de busca" width="600px"/>
 
 
 ## Execução de testes unitários
 
-Para relizar alguns testes unitários de possíveis cenários de busca:
+Para realizar alguns testes unitários de possíveis cenários de busca:
 ```bash
 npm run test
 ```
-Exemplo de execução de testes:
+Exemplo de execução de testes unitários:
 
 <img src="https://github.com/vincent-queimado/BuscaDadosIndexados/blob/develop/public/assets/images/jesttest.png?raw=true" alt="Teste Unitários com Jest" width="600px"/>
