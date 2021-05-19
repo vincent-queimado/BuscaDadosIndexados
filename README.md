@@ -29,7 +29,7 @@ src\                    # Pasta do programa source (sem compilação)
 test\                   # Pasta de arquivos de testes unitérios
 ```
 
-## instalação 
+## Instalação 
 
 Para realizar a instalação do programa, segue o passo a passo abaixo.
 
