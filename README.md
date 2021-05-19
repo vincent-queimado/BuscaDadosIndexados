@@ -9,7 +9,7 @@ O programa não utiliza dependências, a menos para os testes unitários do proj
 
 Segue abaixo algumas premissas implementadas no projeto: 
 1. O programa é executado a partir de linha de comando do terminal (Linux/MacOS).
-2. O programa não utiliza dependências.
+2. O programa não utiliza dependências/pacotes de terceiros (apenas código naitvo).
 2. O resultado de ocorrências encontradas é listado em ordem crescente e alfabética. 
 3. O programa permite a busca de múltiplas palavras-chaves (lógica combinatória com AND), ou seja palavras que se encontram em mesmos arquivos não necessariamente juntas.
 
