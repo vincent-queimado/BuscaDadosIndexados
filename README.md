@@ -53,7 +53,7 @@ Obs.: Existe uma pasta para arquivos de dados para testes em ambiente de desenvo
 
 ## Sobre a execução
 
-O programa deve ser executado em duas partes a partir de scripts de preprocessamento de dados e execução de busca por comando:
+O programa deve ser executado em duas partes a partir de um script de pré-processamento de dados e e outro script de execução de busca via comando no terminal:
 
 1. O primeiro script é responsável pelo preprocessamento dos dados dos arquivos, criando uma indexação e um servidor pronta para receber as buscas.
 
