@@ -3,7 +3,9 @@
 # Programa de busca por indexação
 
 ## Sobre o programa
-O objetivo deste programa é realizar buscas por sentença (conjunto de palavras chaves) em arquivos de dados (exemplo com arquivos .txt). Uma das premissas do programa é a velocidade de tratamento de busca através de algoritmo de indexação (0.001ms), retornando a quantidade de ocorrências encontradas assim como a lista de arquivos que possuem as palavras chaves pesquisadas.
+O objetivo deste programa é realizar buscas por sentença (conjunto de palavras chaves) em arquivos de dados (exemplificado no projeto com arquivos .txt). 
+O programa é focado no pré-processamento dos dados de arquivos e algoritmo de indexação de forma a otimizar a velocidade de busca (0.001ms), retornando a quantidade de ocorrências encontradas assim como a lista de arquivos que possuem as palavras chaves pesquisadas. 
+O programa não utiliza dependências, a menos para os testes unitários do projeto. 
 
 Seguem as premissas implementadas no projeto: 
 1. O programa é executado a partir de linha de comando do terminal (Linux/MacOS).
