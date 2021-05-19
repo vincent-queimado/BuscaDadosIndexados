@@ -57,7 +57,7 @@ O programa deve ser executado em duas partes a partir de um script de pré-proce
 
 1. O primeiro script é responsável pelo pré-processamento dos dados dos arquivos, criando uma indexação e um servidor pronta para receber as buscas.
 
-2. O segundo script é responsável pela execução de um comando de busca via terminal.
+2. O segundo script é responsável pela execução de um comando de busca via terminal (script seguido das palavras-chaves separadas por espaço).
 
 ### Executando o pré-processamento de dados
 
@@ -95,7 +95,7 @@ Foi encontrada 1 ocorrência pelos termos "vincent","dots"
 3-dots.txt
 ```
 
-ou caso nehuma ocorrência é encontrada:
+ou caso nenhuma ocorrência é encontrada:
 ```bash
 Nenhuma ocorrência encontrada!
 ```
