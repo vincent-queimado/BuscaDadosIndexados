@@ -19,7 +19,7 @@ Segue abaixo algumas premissas implementadas no projeto:
 database\               # Pasta de arquivos de dados (contém os arquivos de dados para tratamento de extração e indexação antes de operar a busca)
  |--data                # Pasta de arquivos de dados para uso staging/produção
  |--data_sample         # Pasta de arquivos de exemplo para uso em desenvolvimento
-public\                 # Pasta de imagens de documentação do git (pasta criada apenas para ilustração no git)
+public\                 # Pasta de imagens de documentação do git (pasta criada apenas para ilustrações relacionadas ao Readme do projeto)
 src\                    # Pasta do programa source (sem compilação)   
  |--app\                # Subpasta do programa/serviço
      |--client          # Pasta de arquivos relacionados a execução da busca de usuário 
