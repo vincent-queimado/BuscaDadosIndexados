@@ -15,7 +15,7 @@
     "server": "export NODE_ENV=staging && node ./src/app/server/index.js",
     "dev-search": "set NODE_ENV=staging&& nodemon ./src/app/client/index.js",
     "dev-server": "set NODE_ENV=staging&& nodemon ./src/app/server/index.js",
-    "unit": "set NODE_ENV=development&& jest ./test",
+    "unit": "set NODE_ENV=development&& jest ./test --detectOpenHandles",
     "test": "npm run unit"
   },
   "devDependencies": {
