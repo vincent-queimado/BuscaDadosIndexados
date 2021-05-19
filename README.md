@@ -100,6 +100,12 @@ ou caso nehuma ocorrência é encontrada:
 Nenhuma ocorrência encontrada!
 ```
 
+## Resultado de busca
+
+Exemplo de execução de uma busca por indexação em tempo 0.016ms considerando uma palavra-chave localizada em 74 aruivos de textos:
+<img src="https://github.com/vincent-queimado/BuscaDadosIndexados/blob/master/public/assets/images/search_result.png?raw=true" alt="Resultado de busca" height="100px"/>
+
+
 ## Execução de testes unitários
 
 Para relizar alguns testes unitários de possíveis cenários de busca:
@@ -107,4 +113,4 @@ Para relizar alguns testes unitários de possíveis cenários de busca:
 npm run test
 ```
 Exemplo de execução de testes:
-<img src="https://github.com/vincent-queimado/BuscaDadosIndexados/blob/master/public/assets/images/jest_test.png?raw=true" alt="Logo" height="100px"/>
+<img src="https://github.com/vincent-queimado/BuscaDadosIndexados/blob/master/public/assets/images/jest_test.png?raw=true" alt="Teste Unitários com Jest" height="100px"/>
