@@ -1,4 +1,4 @@
-<img src="https://github.com/account/app/blob/main/public/assets/images/logo.png?raw=true" alt="Logo" height="100px"/>
+<img src="https://github.com/vincent-queimado/BuscaDadosIndexados/blob/main/public/assets/images/logo.png?raw=true" alt="Logo" height="100px"/>
 
 # Programa de busca por indexação
 
@@ -36,8 +36,8 @@ Para realizar a instalação do programa, segue o passo a passo abaixo.
 
 Clone do repositório:
 ```bash
-  git clone https://github.com/.git
-  cd ep-delivery-store-api
+  git clone https://github.com/vincent-queimado/BuscaDadosIndexados.git
+  cd BuscaDadosIndexados
 ```
 
 Instalação de dependências:
@@ -52,8 +52,15 @@ Executando localmente em ambiente de desenvolvimento:
   npm run dev-server
 ```
 
+```bash
+  npm run dev-search palavra1 palavra2
+```
+
 Executando em ambiente staging ou produção:
 ```bash
-  npm serve
+  npm run server
+```
+```bash
+  npm run search palavra1 palavra2
 ```
 
