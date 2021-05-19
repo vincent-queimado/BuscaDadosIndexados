@@ -4,14 +4,14 @@
 
 ## Sobre o programa
 O objetivo deste programa é realizar buscas por sentença (conjunto de palavras chaves) em arquivos de dados (exemplificado no projeto com arquivos .txt). 
-O programa é focado no pré-processamento dos dados de arquivos e algoritmo de indexação de forma a otimizar a velocidade de busca (0.001ms), retornando a quantidade de ocorrências encontradas assim como a lista de arquivos que possuem as palavras chaves pesquisadas. 
+O programa é focado no pré-processamento dos dados de arquivos e algoritmo de indexação de forma a otimizar a velocidade de busca (0.001ms), retornando a quantidade de ocorrências encontradas assim como a lista de arquivos que possuem as palavras-chaves pesquisadas. 
 O programa não utiliza dependências, a menos para os testes unitários do projeto. 
 
-Seguem as premissas implementadas no projeto: 
+Segue abaixo algumas premissas implementadas no projeto: 
 1. O programa é executado a partir de linha de comando do terminal (Linux/MacOS).
 2. O programa não utiliza dependências.
 2. O resultado de ocorrências encontradas é listado em ordem crescente e alfabética. 
-3. O programa oferece um busca de multiplas palavras chaves (chaveado com AND) que se encontram em mesmos aquivos mesmo de forma separadas dentro do contéudo do arquivo.
+3. O programa permite a busca de múltiplas palavras-chaves (lógica combinatória com AND), ou seja palavras que se encontram em mesmos arquivos não necessariamente juntas.
 
 ## Estrutura
 
@@ -19,7 +19,7 @@ Seguem as premissas implementadas no projeto:
 database\               # Pasta de arquivos de dados 
  |--data                # Pasta de arquivos de dados para uso staging/produção
  |--data_sample         # Pasta de arquivos de exemplo para uso em desenvolvimento
-public\                 # Pasta de imagens de documentação do git (pasta criada apenas para ilustração)
+public\                 # Pasta de imagens de documentação do git (pasta criada apenas para ilustração no git)
 src\                    # Pasta do programa source (sem compilação)   
  |--app\                # Subpasta do programa/serviço
      |--client          # Pasta de arquivos relacionados a execução da busca de usuário 
